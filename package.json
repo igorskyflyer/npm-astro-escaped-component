@@ -1,0 +1,45 @@
+{
+  "name": "@igor.dvlpr/$pkg",
+  "version": "1.0.0",
+  "description": "$desc",
+  "sideEffects": false,
+  "type": "module",
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  },
+  	"files": [
+    "dist",
+    "index.ts",
+    "Component.astro"
+  ],
+  "main": "index.ts",
+  "module": "index.ts",
+  "exports": {
+    "default": "./index.ts"
+  },
+  "scripts": {
+    "setup-once": "cd site && npm create astro@latest",
+    "dev": "cd site && astro dev",
+    "pub": "npm publish --access public"
+  },
+  "keywords": [$tags, "astro-component", "withastro", "igorskyflyer", "igor.dvlpr"],
+  "license": "MIT",
+  "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+  "funding": "https://ko-fi.com/igorskyflyer",
+  "homepage": "https://github.com/igorskyflyer/$repo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorskyflyer/$repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorskyflyer/$repo/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "astro": "^4.11.5",
+    "@biomejs/biome": "^1.8.3"
+  },
+  "peerDependencies": {
+    "astro": ">=1.0.0"
+  }
+}
