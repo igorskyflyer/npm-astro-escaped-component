@@ -4,9 +4,17 @@
 import type { Props } from './dist/Props.mjs'
 export type { Props }
 
-const { 
-	// props
- } = Astro.props as Props
+import { Encoder } from '@igor.dvlpr/encode-entities'
+import { RawElement } from '@igor.dvlpr/rawelement'
+
+const slot: string = (await Astro.slots.render('default')) || ''
+
+const element: RawElement = new RawElement({
+	tag: 'div',
+	data: slot
+})
+const encoder: Encoder = new Encoder()
+const source: string = encoder.encode(element.source)
 ---
 
-<!-- Component code -->
+<Fragment set:text={source} />
