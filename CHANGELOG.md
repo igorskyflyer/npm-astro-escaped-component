@@ -1,6 +1,6 @@
 ## 📒 Changelog
 
-### of [@igor.dvlpr/astro-escaped-component](https://github.com/igorskyflyer/$repo)
+### of [@igor.dvlpr/astro-escaped-component](https://github.com/igorskyflyer/npm-astro-escaped-component)
 
 <br>
 
