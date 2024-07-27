@@ -1,6 +1,6 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
 // @ts-ignore
-import Component from './Component.astro'
+import Escaped from './Escaped.astro'
 
-export default Component
+export default Escaped
