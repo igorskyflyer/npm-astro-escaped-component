@@ -54,7 +54,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/astro-escaped-component"
+npm i -D "@igor.dvlpr/astro-escaped-component"
 ```
 
 <br>
