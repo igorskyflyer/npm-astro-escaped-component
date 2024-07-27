@@ -61,6 +61,24 @@ npm i "@igor.dvlpr/astro-escaped-component"
 
 ## 🤹🏼 API
 
+The API exposes a single Astro component `Escaped`, see a usage example below.  
+
+After importing the component into a project, add it to an `Astro` page markup as:
+
+```astro
+<Escaped is:raw>
+ {/* text/code to be escaped */}
+</Escaped>
+```
+
+<br>
+
+> [!CAUTION]
+> The attribute `is:raw` is crucial for the component to work, if not specified, Astro will parse all content as pure HTML, including `<script>` and `<style>` tags.
+>
+
+<br>
+
 ---
 
 ## ✨ Examples
