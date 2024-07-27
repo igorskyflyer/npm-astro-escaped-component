@@ -61,7 +61,7 @@ npm i -D "@igor.dvlpr/astro-escaped-component"
 
 ## 🤹🏼 API
 
-The API exposes a single Astro component `Escaped`, see [a usage example below](#-examples)  
+The API exposes a single Astro component `Escaped`, see [a usage example below](#-examples).  
 
 After importing the component into a project, add it to an `Astro` page markup as:
 
@@ -96,6 +96,17 @@ import Escaped from '@igor.dvlpr/astro-escaped-component'
   
   <script>console.log('Hello? No? 😭')</script>
 </Escaped>
+
+{/*
+  Will be rendered as:
+
+  Mitochondria are known as the &#34;powerhouses&#34; of the cell because they generate most of the cell&#39;s supply of ATP &#38; CO&#60;sub&#62;2&#60;/sub&#62;, which is used as a source of chemical energy.
+
+  &#60;, &#62;, &#34;, &#39;, &#38;, &#61;, &#96;, &#33;, &#64;, &#36;, &#37;, &#40;, &#41;, &#43;, &#123;, &#125;, &#91;, &#93;.
+
+  &#60;script&#62;console.log&#40;&#39;Hello? No? 😭&#39;&#41;&#60;/script&#62;
+
+*/}
 ```
 
 ---
