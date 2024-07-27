@@ -61,7 +61,7 @@ npm i -D "@igor.dvlpr/astro-escaped-component"
 
 ## 🤹🏼 API
 
-The API exposes a single Astro component `Escaped`, see a usage example below.  
+The API exposes a single Astro component `Escaped`, see [a usage example below](#-examples)  
 
 After importing the component into a project, add it to an `Astro` page markup as:
 
