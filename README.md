@@ -122,7 +122,7 @@ import Escaped from '@igor.dvlpr/astro-escaped-component'
 
 ## 📝 Changelog
 
-📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-escaped-component/blob/main/CHANGELOG.md).
+📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-astro-escaped-component/blob/main/CHANGELOG.md).
 
 ---
 
