@@ -74,7 +74,7 @@ import Escaped from '@igor.dvlpr/astro-escaped-component'
 <Escaped is:raw>
   Mitochondria are known as the "powerhouses" of the cell because they generate most of the cell's supply of ATP & CO<sub>2</sub>, which is used as a source of chemical energy. <, >, ", ', &, =, `, !, @, $, %, (, ), +, {, }, [, ].
   
-  <script>console.log('')</script>
+  <script>console.log('Hello? No? 😭')</script>
 </Escaped>
 ```
 
@@ -94,25 +94,33 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/common-types](https://www.npmjs.com/package/@igor.dvlpr/common-types)
 
-> __
+> _🔦 Provides frequently used types for your TypeScript projects. 🦄_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/registry-apppaths](https://www.npmjs.com/package/@igor.dvlpr/registry-apppaths)
 
-[]()
+> _🪀 A Node.js module for reading the AppPaths registry key on Windows. Useful for retrieving applications that can be launched from the command prompt. 🗃_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/scrollend-polyfill](https://www.npmjs.com/package/@igor.dvlpr/scrollend-polyfill)
 
-> __
+> _🛴 A performant and light (< 1.5KB) JavaScript polyfill for the scrollend Event. ⛸️_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/astro-easynav-button](https://www.npmjs.com/package/@igor.dvlpr/astro-easynav-button)
+
+> _🧭 Add an easy-to-use navigational button (jump to top/bottom) to your Astro site. 🔼_
+
+<br>
+
+[@igor.dvlpr/windev](https://www.npmjs.com/package/@igor.dvlpr/windev)
+
+> _🍃 Provides ways of checking whether a path is a legacy Windows device. 💾_
 
 ---
 
