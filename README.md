@@ -80,7 +80,7 @@ After importing the component into a project, add it to an `Astro` page markup a
 <br>
 
 > [!CAUTION]
-> This component escapes/encodes text using HTML entities to help prevent XSS attacks. However, this may not be ***sufficient*** in all cases.
+> This component escapes/encodes text using HTML entities and can help prevent XSS attacks. However, this may not be ***sufficient*** in all cases.
 >
 > Ensure **additional** security measures are in place.
 >
