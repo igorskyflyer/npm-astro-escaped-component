@@ -1,45 +1,58 @@
 {
-  "name": "@igor.dvlpr/$pkg",
+  "name": "@igor.dvlpr/astro-escaped-component",
   "version": "1.0.0",
-  "description": "$desc",
+  "description": "🏃🏻‍♂️‍➡️ An Astro component that holds only HTML-encoded content. 📜",
   "sideEffects": false,
   "type": "module",
   "engines": {
     "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
   },
-  	"files": [
-    "dist",
-    "index.ts",
-    "Component.astro"
-  ],
+  "files": ["dist", "index.ts", "Component.astro"],
   "main": "index.ts",
   "module": "index.ts",
   "exports": {
     "default": "./index.ts"
   },
   "scripts": {
-    "setup-once": "cd site && npm create astro@latest",
     "dev": "cd site && astro dev",
     "pub": "npm publish --access public"
   },
-  "keywords": [$tags, "astro-component", "withastro", "igorskyflyer", "igor.dvlpr"],
+  "keywords": [
+    "escaped",
+    "escape",
+    "html",
+    "entity",
+    "sequence",
+    "string",
+    "xss",
+    "text",
+    "encode",
+    "astro-component",
+    "withastro",
+    "igorskyflyer",
+    "igor.dvlpr"
+  ],
   "license": "MIT",
   "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
   "funding": "https://ko-fi.com/igorskyflyer",
-  "homepage": "https://github.com/igorskyflyer/$repo",
+  "homepage": "https://github.com/igorskyflyer/npm-astro-escaped-component",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igorskyflyer/$repo.git"
+    "url": "git+https://github.com/igorskyflyer/npm-astro-escaped-component.git"
   },
   "bugs": {
-    "url": "https://github.com/igorskyflyer/$repo/issues"
+    "url": "https://github.com/igorskyflyer/npm-astro-escaped-component/issues"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
-    "astro": "^4.11.5",
-    "@biomejs/biome": "^1.8.3"
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.12",
+    "astro": "^4.12.2"
   },
   "peerDependencies": {
     "astro": ">=1.0.0"
+  },
+  "dependencies": {
+    "@igor.dvlpr/encode-entities": "^1.0.0",
+    "@igor.dvlpr/rawelement": "^1.1.0"
   }
 }
