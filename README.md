@@ -98,6 +98,7 @@ import Escaped from '@igor.dvlpr/astro-escaped-component'
 </Escaped>
 
 {/*
+
   Will be rendered as:
 
   Mitochondria are known as the &#34;powerhouses&#34; of the cell because they generate most of the cell&#39;s supply of ATP &#38; CO&#60;sub&#62;2&#60;/sub&#62;, which is used as a source of chemical energy.
