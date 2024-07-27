@@ -73,8 +73,16 @@ After importing the component into a project, add it to an `Astro` page markup a
 
 <br>
 
-> [!CAUTION]
+> [!IMPORTANT]
 > The attribute `is:raw` is crucial for the component to work, if not specified, Astro will parse all content as pure HTML, including `<script>` and `<style>` tags.
+>
+
+<br>
+
+> [!CAUTION]
+> This component escapes/encodes text using HTML entities to help prevent XSS attacks. However, this may not be ***sufficient*** in all cases.
+>
+> Ensure **additional** security measures are in place.
 >
 
 <br>
